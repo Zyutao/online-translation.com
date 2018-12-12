@@ -1,0 +1,6 @@
+在线翻译
+三个组件：app transform transformOutput
+用到了父子组件相互传值:子传用户输入的值给父（transform->app）；
+	父将翻译好的值传给子（app->transformOutput）
+用了翻译的API:https://tech.yandex.com/里的Translate API
+样式小用bootstrap
